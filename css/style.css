@@ -1,0 +1,200 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  position: relative;
+}
+
+header {
+  height: 2.5em;
+}
+
+h1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 3px;
+  position: fixed;
+  z-index: 3;
+  color: rgb(75, 35, 35);
+  background-color: rgb(255, 250, 200);
+  border: 0.06em solid rgb(180, 160, 90);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  font-size: 28px;
+  text-align: center;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.question-card {
+  padding: 0.5em 0;
+  position: relative;
+  margin: 1.5em 1em;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 0.06em solid rgb(180, 160, 90);
+}
+
+.question-card:first-child {
+  margin-top: 2.5em;
+}
+
+.question-card:last-child {
+  margin-bottom: 3.5em;
+}
+
+#bookmark {
+  position: absolute;
+  top: -0.5em;
+  right: 1em;
+}
+
+#bookmark img {
+  height: 1.5em;
+}
+
+.question-card p {
+  width: 80%;
+  margin: 1em 0;
+}
+
+.question-card button {
+  width: 40%;
+  height: 2em;
+  background-color: rgb(90, 240, 160);
+  border-radius: 0.5em;
+}
+
+.question-answer {
+  /* display: none; */
+  text-align: center;
+}
+
+#tag-container {
+  width: 90%;
+  height: 2em;
+  margin-top: 1em;
+  border: 0.06em solid rgb(180, 160, 90);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+#profile-box {
+  margin-top: 2em;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#profile-foto {
+  width: 48%;
+  height: max-content;
+}
+
+#profile-foto img {
+  height: 7em;
+}
+
+#profile-name {
+  width: 45%;
+}
+
+#profile-name h3 {
+  margin-top: 1.5em;
+}
+
+#about-me {
+  margin-left: 2em;
+  width: 90%;
+}
+
+/* #about-me p {
+
+} */
+
+#profile-counter-box {
+  width: 80%;
+  margin-left: 2em;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 0.06em solid rgb(180, 160, 90); */
+}
+
+.profile-counter {
+  margin-top: 1em;
+  padding: 0.6em;
+  border: 0.06em solid rgb(180, 160, 90);
+  border-radius: 20%;
+}
+
+.profile-counter img {
+  height: 1.5em;
+}
+
+.profile-counter span {
+  margin-left: 0.3em;
+  font-size: 1.6em;
+}
+
+#settings-box {
+  margin: 2em;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 8em;
+}
+
+#settings-box h4 {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+footer {
+  height: 2.4em;
+  width: 100%;
+  position: fixed;
+  z-index: 3;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  align-items: flex-end;
+}
+
+.footer-item {
+  padding: 5px;
+  height: 100%;
+  background-color: rgb(255, 250, 200);
+  border: 0.06em solid rgb(180, 160, 90);
+  flex-grow: 1;
+}
+
+footer img {
+  margin: auto;
+  display: block;
+  height: 1.8em;
+}
+
+footer #home {
+  background-color: rgb(230, 210, 100);
+}
+
+footer #bookmark_page {
+  background-color: rgb(230, 210, 100);
+}
+
+footer #profil {
+  background-color: rgb(230, 210, 100);
+}
