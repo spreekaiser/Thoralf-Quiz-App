@@ -83,12 +83,18 @@ main {
 
 #tag-container {
   width: 90%;
-  height: 2em;
+  /* height: 2em; */
   margin-top: 1em;
-  border: 0.06em solid rgb(180, 160, 90);
+  /* border: 0.06em solid rgb(180, 160, 90); */
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+
+#tag-container .tag {
+  margin: 0.3em;
+  font-size: 12px;
+  font-weight: 800;
 }
 
 #profile-box {
