@@ -138,6 +138,10 @@ main {
   background-color: rgb(90, 240, 160);
 }
 
+.cardCreation {
+  margin-top: 3em;
+}
+
 #profile-box {
   margin-top: 2em;
   width: 100%;
