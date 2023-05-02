@@ -3,7 +3,7 @@ console.clear();
 const bookmark = document.querySelector(".bookmark");
 const answerButton = document.querySelector(".button-answer");
 const answerBox = document.querySelector(".answer-box");
-console.log(answerButton);
+// console.log(answerButton);
 
 function changeBookmark() {}
 

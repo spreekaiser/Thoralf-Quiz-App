@@ -104,6 +104,40 @@ main {
   font-weight: 800;
 }
 
+.labelNewCard {
+  margin: 2em 1em 0.5em;
+  /* margin-top: 2em; */
+  font-size: 1.2em;
+  font-weight: 500;
+  align-self: flex-start;
+}
+
+.center-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.textField {
+  width: 90%;
+  padding: 0.3em;
+}
+
+.characters {
+  align-self: flex-end;
+  margin-top: 0.3em;
+  margin-right: 10%;
+  font-size: 0.8em;
+}
+
+#newCardButton {
+  margin-top: 2.5em;
+  width: 30%;
+  height: 2.5em;
+  border-radius: 25px;
+  background-color: rgb(90, 240, 160);
+}
+
 #profile-box {
   margin-top: 2em;
   width: 100%;
