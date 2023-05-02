@@ -22,11 +22,12 @@ bookmark.addEventListener("click", (event) => {
 answerButton.addEventListener("click", () => {
   // answerBox.classList.toggle("answer-box-none");
   answerBox.toggleAttribute("hidden");
-  if (answerBox.attributes.hidden == "undefined") {
+
+  if (answerButton.innerText == "Show Answer") {
     answerButton.innerText = "Hide Answer";
   } else {
     answerButton.innerText = "Show Answer";
   }
-  console.log(answerBox);
-  console.log(answerBox.attributes.hidden);
+  //   console.log(answerBox);
+  //   console.log(answerButton.innerText);
 });
