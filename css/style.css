@@ -76,9 +76,16 @@ main {
   border-radius: 0.5em;
 }
 
-.question-answer {
+.answer-box {
   /* display: none; */
-  text-align: center;
+  width: 80%;
+  margin: 1em 0;
+}
+
+.answer-box-none {
+  display: none;
+  width: 80%;
+  margin: 1em 0;
 }
 
 #tag-container {

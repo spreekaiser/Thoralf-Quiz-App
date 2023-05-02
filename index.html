@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/style.css" />
+    <script src="./js/index.js" defer></script>
     <title>Quiz App</title>
   </head>
   <body>
@@ -14,7 +15,7 @@
     <main>
       <div class="question-card">
         <div id="bookmark">
-          <img src="assets/bookmark.png" alt="bookmark" />
+          <img src="assets/bookmark.png" class="bookmark" alt="bookmark" />
         </div>
         <p id="question">
           This realy tough nerd quiz is starting with the hardest question ever
@@ -23,6 +24,7 @@
         <button class="button-answer" type="button" aria-label="show answer">
           Show Answer
         </button>
+        <div class="answer-box">This is the holy answer!</div>
         <div id="tag-container">
           <span class="tag">#tag1</span>
           <span class="tag">#tag2</span>
@@ -33,7 +35,7 @@
       </div>
       <div class="question-card">
         <div id="bookmark">
-          <img src="assets/bookmark.png" alt="bookmark" />
+          <img src="assets/bookmark.png" class="bookmark" alt="bookmark" />
         </div>
         <p id="question">Here comes the second question in this nerdy quiz</p>
         <button class="button-answer" type="button" aria-label="show answer">
@@ -48,7 +50,11 @@
       </div>
       <div class="question-card">
         <div id="bookmark">
-          <img src="assets/bookmark_filled.png" alt="bookmark" />
+          <img
+            src="assets/bookmark_filled.png"
+            class="bookmark"
+            alt="bookmark"
+          />
         </div>
         <p id="question">
           Now you know our level and you should go on the third question
@@ -65,7 +71,7 @@
       </div>
       <div class="question-card">
         <div id="bookmark">
-          <img src="assets/bookmark.png" alt="bookmark" />
+          <img src="assets/bookmark.png" class="bookmark" alt="bookmark" />
         </div>
         <p id="question">
           With the next question we kill your brain that you never play an other
